@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Simple Music App</string>
+    <string name="details">Details</string>
+    <string name="payment">Payment</string>
+    <string name="play">Play</string>
+    <string name="store">Store</string>
+    <string name="main">Library</string>
+    <string name="details_summary">
+        Displays detailed information (i.e. artist, album, genre, etc.) about a particular song. A
+        user can return to the play screen for the targeted song (PlayActivity), or return to their
+        song library (MainActivity). The store can also be accessed, where more
+        songs can be purchased (StoreActivity).
+    </string>
+    <string name="payment_summary">
+        Allows for the purchase of songs using the Android Pay API. The implementation of this
+        involves several steps: checking if the user is ready to pay, requesting a Payment Token,
+        creating a Masked Wallet request, adding a purchase button with WalletFragment, requesting the
+        Full Wallet, and retrieving the Full Wallet. A user can also return to the store
+        to view songs available for purchase (Store activity), or return to their library of songs
+        (MainActivity).
+    </string>
+    <string name="play_summary">
+        Plays a particular song. A user can select details to navigate to a details page
+        for the targeted song (DetailsActivity), or return to their song library (MainActivity).
+    </string>
+    <string name="store_summary">
+        Displays a collection of songs available for purchase by the user, which they do not
+        currently own. A particular song has a button for purchasing (PaymentActivity) and
+        more information (DetailsActivity).
+    </string>
+    <string name="main_summary">
+        Displays a collection of songs belonging to the user that can be selected, which then plays
+        the chosen song (PlayActivity). The store can also be accessed where more songs can be
+        purchased (StoreActivity).
+    </string>
+</resources>
